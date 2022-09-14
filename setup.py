@@ -180,7 +180,7 @@ def setup_package():
                     url=URL,
                     version=VERSION,
                     download_url=DOWNLOAD_URL,
-                    install_requires=open('requirements.txt').read().splitlines(),
+                    install_requires=["Cython","numpy"],
                     long_description=LONG_DESCRIPTION,
                     classifiers=['Development Status :: 4 - Beta',
                                  'Environment :: Console',
